@@ -10,7 +10,7 @@ const primary = {
   900: '#000461',
 };
 
-const colorPrimary = {
+export const colorPrimary = {
   'bg-primary-100': {
     backgroundColor: primary['100'],
   },
@@ -38,8 +38,4 @@ const colorPrimary = {
   'bg-primary-900': {
     backgroundColor: primary['900'],
   },
-};
-
-export default {
-  ...colorPrimary,
 };
