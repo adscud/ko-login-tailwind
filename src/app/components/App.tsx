@@ -4,7 +4,7 @@ import {tailwind} from '../../core/config';
 
 export const App = () => {
   return (
-    <SafeAreaView style={tailwind('h-full bg-blue-200')}>
+    <SafeAreaView style={tailwind('bg-primary-100 h-full')}>
       <Text>Hello, I'm build with Tailwind</Text>
     </SafeAreaView>
   );
