@@ -10,7 +10,7 @@ const primary = {
   900: '#000461',
 };
 
-export const colorPrimary = {
+const background = {
   'bg-primary-100': {
     backgroundColor: primary['100'],
   },
@@ -38,4 +38,39 @@ export const colorPrimary = {
   'bg-primary-900': {
     backgroundColor: primary['900'],
   },
+};
+
+const text = {
+  'text-primary-100': {
+    color: primary['100'],
+  },
+  'text-primary-200': {
+    color: primary['200'],
+  },
+  'text-primary-300': {
+    color: primary['300'],
+  },
+  'text-primary-400': {
+    color: primary['400'],
+  },
+  'text-primary-500': {
+    color: primary['500'],
+  },
+  'text-primary-600': {
+    color: primary['600'],
+  },
+  'text-primary-700': {
+    color: primary['700'],
+  },
+  'text-primary-800': {
+    color: primary['800'],
+  },
+  'text-primary-900': {
+    color: primary['900'],
+  },
+};
+
+export const colorPrimary = {
+  ...background,
+  ...text,
 };
