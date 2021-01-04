@@ -70,7 +70,38 @@ const text = {
   },
 };
 
+const border = {
+  'border-basic-100': {
+    borderColor: basic['100'],
+  },
+  'border-basic-200': {
+    borderColor: basic['200'],
+  },
+  'border-basic-300': {
+    borderColor: basic['300'],
+  },
+  'border-basic-400': {
+    borderColor: basic['400'],
+  },
+  'border-basic-500': {
+    borderColor: basic['500'],
+  },
+  'border-basic-600': {
+    borderColor: basic['600'],
+  },
+  'border-basic-700': {
+    borderColor: basic['700'],
+  },
+  'border-basic-800': {
+    borderColor: basic['800'],
+  },
+  'border-basic-900': {
+    borderColor: basic['900'],
+  },
+};
+
 export const colorBasic = {
   ...background,
   ...text,
+  ...border,
 };

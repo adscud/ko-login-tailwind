@@ -70,7 +70,38 @@ const text = {
   },
 };
 
+const border = {
+  'border-primary-100': {
+    borderColor: primary['100'],
+  },
+  'border-primary-200': {
+    borderColor: primary['200'],
+  },
+  'border-primary-300': {
+    borderColor: primary['300'],
+  },
+  'border-primary-400': {
+    borderColor: primary['400'],
+  },
+  'border-primary-500': {
+    borderColor: primary['500'],
+  },
+  'border-primary-600': {
+    borderColor: primary['600'],
+  },
+  'border-primary-700': {
+    borderColor: primary['700'],
+  },
+  'border-primary-800': {
+    borderColor: primary['800'],
+  },
+  'border-primary-900': {
+    borderColor: primary['900'],
+  },
+};
+
 export const colorPrimary = {
   ...background,
   ...text,
+  ...border,
 };
