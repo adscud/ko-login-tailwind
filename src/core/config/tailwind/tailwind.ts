@@ -1,8 +1,7 @@
 import {create} from 'tailwind-rn';
-import {default as baseStyleTailwind} from 'tailwind-rn/styles.json';
-import styles from './styles/styles';
+import styles from '../../../../styles.json';
 
 // You can add getColor if you need it : https://github.com/vadimdemedes/tailwind-rn#getcolorcolor
-const {tailwind} = create({...baseStyleTailwind, ...styles});
+const {tailwind} = create(styles);
 
 export {tailwind};
